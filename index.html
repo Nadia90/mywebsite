@@ -25,11 +25,25 @@ ctx.stroke();
 ctx.fillstyle="#808000";  
 ctx.fillRect(x,y,largeur,hauteur); 
     mouse move="draw(event)"
-    var pss X=event.clientX;
-    var pos Y=event.clientY;
+    var pos X =event.clientX;
+    var pos Y =event.clientY;
     
   </script>
   
+  
+  <canvas id="myCanvas" on mouse move ="draw(event)"
+ width="600px" height ="400px"> </canvas>
+ <script>
+function draw(event){
+var canvas=document.getElementById("my canvas");
+var context = canvas.get(context("2d");
+var pos X=event.clientX;
+var pos Y=event.clientY;
+ctx.fill style="# FF0000";
+ctx.fillRect(posX,posY,2,2);
+
+} 
+</script>
   
   <script>
   function myMap() {
